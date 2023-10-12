@@ -68,19 +68,16 @@ dependencies {
     // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.retrofit2.kotlin.coroutines.adapter)
 
     // Kotlin Coroutines
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.core)
 
     // Retrofit Coroutines Support
-    implementation(libs.retrofit2.kotlin.coroutines.adapter)
 
     //Glide
     implementation(libs.glide)
-
-    implementation(libs.flexbox)
-
 }
 
 kapt {
