@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GiphyTestApp</string>
+    <string name="search">Search...</string>
+    <string name="gif_transition_name">gif_transition</string>
+</resources>

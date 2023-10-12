@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Base.Theme.GiphyTestApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="Theme.GiphyTestApp" parent="Base.Theme.GiphyTestApp" />
+</resources>
